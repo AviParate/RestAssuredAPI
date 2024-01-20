@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-14T11:24:35Z" name="RestAssuredAPISuite" finished-at="2024-01-14T11:24:56Z" duration-ms="21103">
+    <groups>
+    </groups>
+    <test started-at="2024-01-14T11:24:35Z" name="RestAssuredAPITest" finished-at="2024-01-14T11:24:56Z" duration-ms="21103">
+      <class name="com.usersapi.testcases.TC05_Delete_User">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.usersapi.testcases.TC05_Delete_User@45b4c3a9]" started-at="2024-01-14T16:54:52Z" name="setup" finished-at="2024-01-14T16:54:52Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="deleteuser()[pri:0, instance:com.usersapi.testcases.TC05_Delete_User@45b4c3a9]" started-at="2024-01-14T16:54:52Z" name="deleteuser" finished-at="2024-01-14T16:54:56Z" duration-ms="4003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="statuscodecheck()[pri:0, instance:com.usersapi.testcases.TC05_Delete_User@45b4c3a9]" started-at="2024-01-14T16:54:56Z" name="statuscodecheck" finished-at="2024-01-14T16:54:56Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuscodecheck -->
+        <test-method signature="statuslinecheck()[pri:0, instance:com.usersapi.testcases.TC05_Delete_User@45b4c3a9]" started-at="2024-01-14T16:54:56Z" name="statuslinecheck" finished-at="2024-01-14T16:54:56Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuslinecheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.usersapi.testcases.TC05_Delete_User@45b4c3a9]" started-at="2024-01-14T16:54:56Z" name="tearDown" finished-at="2024-01-14T16:54:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.usersapi.testcases.TC05_Delete_User -->
+      <class name="com.usersapi.testcases.TC01_Get_All_Users">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.usersapi.testcases.TC01_Get_All_Users@75db5df9]" started-at="2024-01-14T16:54:35Z" name="setup" finished-at="2024-01-14T16:54:36Z" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getallusers()[pri:0, instance:com.usersapi.testcases.TC01_Get_All_Users@75db5df9]" started-at="2024-01-14T16:54:36Z" name="getallusers" finished-at="2024-01-14T16:54:41Z" duration-ms="4696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallusers -->
+        <test-method signature="contenttypecheck()[pri:0, instance:com.usersapi.testcases.TC01_Get_All_Users@75db5df9]" started-at="2024-01-14T16:54:41Z" name="contenttypecheck" finished-at="2024-01-14T16:54:41Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttypecheck -->
+        <test-method signature="responsebodycheck()[pri:0, instance:com.usersapi.testcases.TC01_Get_All_Users@75db5df9]" started-at="2024-01-14T16:54:41Z" name="responsebodycheck" finished-at="2024-01-14T16:54:41Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responsebodycheck -->
+        <test-method signature="statuscodecheck()[pri:0, instance:com.usersapi.testcases.TC01_Get_All_Users@75db5df9]" started-at="2024-01-14T16:54:41Z" name="statuscodecheck" finished-at="2024-01-14T16:54:41Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuscodecheck -->
+        <test-method signature="statuslinecheck()[pri:0, instance:com.usersapi.testcases.TC01_Get_All_Users@75db5df9]" started-at="2024-01-14T16:54:41Z" name="statuslinecheck" finished-at="2024-01-14T16:54:41Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuslinecheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.usersapi.testcases.TC01_Get_All_Users@75db5df9]" started-at="2024-01-14T16:54:41Z" name="tearDown" finished-at="2024-01-14T16:54:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.usersapi.testcases.TC01_Get_All_Users -->
+      <class name="com.usersapi.testcases.TC02_Get_Single_User">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.usersapi.testcases.TC02_Get_Single_User@707194ba]" started-at="2024-01-14T16:54:41Z" name="setup" finished-at="2024-01-14T16:54:41Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getsingleuser()[pri:0, instance:com.usersapi.testcases.TC02_Get_Single_User@707194ba]" started-at="2024-01-14T16:54:41Z" name="getsingleuser" finished-at="2024-01-14T16:54:44Z" duration-ms="3120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsingleuser -->
+        <test-method signature="contenttypecheck()[pri:0, instance:com.usersapi.testcases.TC02_Get_Single_User@707194ba]" started-at="2024-01-14T16:54:44Z" name="contenttypecheck" finished-at="2024-01-14T16:54:44Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttypecheck -->
+        <test-method signature="responsebodycheck()[pri:0, instance:com.usersapi.testcases.TC02_Get_Single_User@707194ba]" started-at="2024-01-14T16:54:44Z" name="responsebodycheck" finished-at="2024-01-14T16:54:44Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responsebodycheck -->
+        <test-method signature="statuscodecheck()[pri:0, instance:com.usersapi.testcases.TC02_Get_Single_User@707194ba]" started-at="2024-01-14T16:54:44Z" name="statuscodecheck" finished-at="2024-01-14T16:54:44Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuscodecheck -->
+        <test-method signature="statuslinecheck()[pri:0, instance:com.usersapi.testcases.TC02_Get_Single_User@707194ba]" started-at="2024-01-14T16:54:44Z" name="statuslinecheck" finished-at="2024-01-14T16:54:44Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuslinecheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.usersapi.testcases.TC02_Get_Single_User@707194ba]" started-at="2024-01-14T16:54:44Z" name="tearDown" finished-at="2024-01-14T16:54:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.usersapi.testcases.TC02_Get_Single_User -->
+      <class name="com.usersapi.testcases.TC04_Put_User">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.usersapi.testcases.TC04_Put_User@6a2f6f80]" started-at="2024-01-14T16:54:48Z" name="setup" finished-at="2024-01-14T16:54:48Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="updateuser()[pri:0, instance:com.usersapi.testcases.TC04_Put_User@6a2f6f80]" started-at="2024-01-14T16:54:48Z" name="updateuser" finished-at="2024-01-14T16:54:52Z" duration-ms="3782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateuser -->
+        <test-method signature="contenttypecheck()[pri:0, instance:com.usersapi.testcases.TC04_Put_User@6a2f6f80]" started-at="2024-01-14T16:54:52Z" name="contenttypecheck" finished-at="2024-01-14T16:54:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttypecheck -->
+        <test-method signature="responsebodycheck()[pri:0, instance:com.usersapi.testcases.TC04_Put_User@6a2f6f80]" started-at="2024-01-14T16:54:52Z" name="responsebodycheck" finished-at="2024-01-14T16:54:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responsebodycheck -->
+        <test-method signature="responsebodyputcheck()[pri:0, instance:com.usersapi.testcases.TC04_Put_User@6a2f6f80]" started-at="2024-01-14T16:54:52Z" name="responsebodyputcheck" finished-at="2024-01-14T16:54:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responsebodyputcheck -->
+        <test-method signature="statuscodecheck()[pri:0, instance:com.usersapi.testcases.TC04_Put_User@6a2f6f80]" started-at="2024-01-14T16:54:52Z" name="statuscodecheck" finished-at="2024-01-14T16:54:52Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuscodecheck -->
+        <test-method signature="statuslinecheck()[pri:0, instance:com.usersapi.testcases.TC04_Put_User@6a2f6f80]" started-at="2024-01-14T16:54:52Z" name="statuslinecheck" finished-at="2024-01-14T16:54:52Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuslinecheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.usersapi.testcases.TC04_Put_User@6a2f6f80]" started-at="2024-01-14T16:54:52Z" name="tearDown" finished-at="2024-01-14T16:54:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.usersapi.testcases.TC04_Put_User -->
+      <class name="com.usersapi.testcases.TC03_Post_New_User">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.usersapi.testcases.TC03_Post_New_User@1190200a]" started-at="2024-01-14T16:54:44Z" name="setup" finished-at="2024-01-14T16:54:44Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="postnewuser()[pri:0, instance:com.usersapi.testcases.TC03_Post_New_User@1190200a]" started-at="2024-01-14T16:54:44Z" name="postnewuser" finished-at="2024-01-14T16:54:48Z" duration-ms="3940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postnewuser -->
+        <test-method signature="contenttypecheck()[pri:0, instance:com.usersapi.testcases.TC03_Post_New_User@1190200a]" started-at="2024-01-14T16:54:48Z" name="contenttypecheck" finished-at="2024-01-14T16:54:48Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttypecheck -->
+        <test-method signature="responsebodycheck()[pri:0, instance:com.usersapi.testcases.TC03_Post_New_User@1190200a]" started-at="2024-01-14T16:54:48Z" name="responsebodycheck" finished-at="2024-01-14T16:54:48Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responsebodycheck -->
+        <test-method signature="responsebodypostcheck()[pri:0, instance:com.usersapi.testcases.TC03_Post_New_User@1190200a]" started-at="2024-01-14T16:54:48Z" name="responsebodypostcheck" finished-at="2024-01-14T16:54:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responsebodypostcheck -->
+        <test-method signature="statuscodecheck()[pri:0, instance:com.usersapi.testcases.TC03_Post_New_User@1190200a]" started-at="2024-01-14T16:54:48Z" name="statuscodecheck" finished-at="2024-01-14T16:54:48Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuscodecheck -->
+        <test-method signature="statuslinecheck()[pri:0, instance:com.usersapi.testcases.TC03_Post_New_User@1190200a]" started-at="2024-01-14T16:54:48Z" name="statuslinecheck" finished-at="2024-01-14T16:54:48Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuslinecheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.usersapi.testcases.TC03_Post_New_User@1190200a]" started-at="2024-01-14T16:54:48Z" name="tearDown" finished-at="2024-01-14T16:54:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.usersapi.testcases.TC03_Post_New_User -->
+    </test> <!-- RestAssuredAPITest -->
+  </suite> <!-- RestAssuredAPISuite -->
+</testng-results>

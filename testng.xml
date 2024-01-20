@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredAPISuite">
+  <test thread-count="5" name="RestAssuredAPITest">
+    <classes>
+      <class name="com.usersapi.testcases.TC01_Get_All_Users"/>
+      <class name="com.usersapi.testcases.TC02_Get_Single_User"/>
+      <class name="com.usersapi.testcases.TC03_Post_New_User"/> 
+      <!--<class name="com.usersapi.testcases.TC03_Post_New_User_UsingDataDrivenTest"/> -->
+      <class name="com.usersapi.testcases.TC04_Put_User"/>
+      <class name="com.usersapi.testcases.TC05_Delete_User"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

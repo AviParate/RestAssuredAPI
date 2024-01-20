@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [RestAssuredAPISuite]" guice-stage="DEVELOPMENT">
+  <test name="RestAssuredAPITest(failed)">
+    <classes>
+      <class name="com.usersapi.testcases.TC02_Get_Single_User">
+        <methods>
+          <include name="statuslinecheck"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="getsingleuser"/>
+        </methods>
+      </class> <!-- com.usersapi.testcases.TC02_Get_Single_User -->
+      <class name="com.usersapi.testcases.TC04_Put_User">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="responsebodyputcheck"/>
+          <include name="updateuser"/>
+        </methods>
+      </class> <!-- com.usersapi.testcases.TC04_Put_User -->
+      <class name="com.usersapi.testcases.TC03_Post_New_User">
+        <methods>
+          <include name="tearDown"/>
+          <include name="responsebodypostcheck"/>
+          <include name="setup"/>
+          <include name="postnewuser"/>
+        </methods>
+      </class> <!-- com.usersapi.testcases.TC03_Post_New_User -->
+    </classes>
+  </test> <!-- RestAssuredAPITest(failed) -->
+</suite> <!-- Failed suite [RestAssuredAPISuite] -->
